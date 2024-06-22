@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday's Homework | Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-content">
+    <h1>
+        Welcome!
+    </h1>
+    <h2>Top 10 Indian Personalities Related to IT (Information Technology) Field</h2>
+    <Br><h5 align="center">Download Presentation(.ppt) Here</h5> <h4>↓</h4><a href="Top-10-Indian-Personalities-in-the-IT-Field.pptx"><img src="Download-ppt.png" alt="Presentation" width="15%" ></a>
+    <img src="1.jpg" alt="Page_1_of_Presentation" width="80%"><br>
+    <img src="2.jpg" alt="Page_2_of_Presentation" width="80%"><br>
+    <img src="3.jpg" alt="Page_3_of_Presentation" width="80%"><br>
+    <img src="4.jpg" alt="Page_4_of_Presentation" width="80%"><br>
+    <img src="5.jpg" alt="Page_5_of_Presentation" width="80%"><br>
+    <img src="6.jpg" alt="Page_6_of_Presentation" width="80%"><br>
+    <img src="7.jpg" alt="Page_7_of_Presentation" width="80%"><br>
+    <img src="8.jpg" alt="Page_8_of_Presentation" width="80%"><br>
+    <img src="9.jpg" alt="Page_9_of_Presentation" width="80%"><br>
+    <img src="10.jpg" alt="Page_10_of_Presentation" width="80%"><br>
+    <img src="11.jpg" alt="Page_11_of_Presentation" width="80%"><br>
+    <img src="12.jpg" alt="Page_12_of_Presentation" width="80%"><br>
+    <img src="13.jpg" alt="Page_13_of_Presentation" width="80%"><br>
+    <footer>
+        <p>© Not Yet Reserved &nbsp; | &nbsp; ViruDaya &nbsp; &nbsp; &nbsp; &nbsp; ||| &nbsp; &nbsp;
+            Contact Me! &nbsp; &nbsp;
+            <a href= mailto:testtube14321@gmail.com><ion-icon name="mail-outline"></ion-icon></a>&nbsp; &nbsp;
+            <a href="https://wa.me/917376000596?text=Hii,+I+Am+"><ion-icon name="logo-whatsapp"></ion-icon></a>&nbsp; &nbsp;
+            <a href="Tel:+917376000596"><ion-icon name="call-outline"></ion-icon></a>&nbsp; &nbsp; &nbsp; &nbsp; ||| &nbsp; &nbsp;
+            Follow Me! &nbsp; &nbsp;
+            <a href="https://github.com/ViruDaya"><ion-icon name="logo-github"></ion-icon></a>
+        </p>
+        </footer>
+</div>
+    <div id="non-desktop-message">
+        Turn On Desktop Mode to Access this Window!
+        <video src="tutorial.mp4" controls ></video>
+    </div>
+    
+    <script>
+        // JavaScript to detect non-desktop devices
+        function isDesktop() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(userAgent);
+            const isTablet = /(tablet|ipad|playbook|silk)|(android(?!.*mobi))/.test(userAgent);
+            const isAndroidMobile = /android/i.test(userAgent) && /mobile/i.test(userAgent);
+            return !isMobile && !isTablet && !isAndroidMobile;
+        }
+
+        if (!isDesktop()) {
+            // Add non-desktop class to the body to show the message
+            document.body.classList.add('non-desktop');
+        } else {
+            // Show the main content for desktop users
+            document.getElementById('main-content').style.display = 'block';
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

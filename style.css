@@ -1,0 +1,67 @@
+body{
+    background-image: url(bg.png);
+    border-radius: 10px;
+    padding: 5%;
+    color: azure;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1, h2, h4, h5{
+    justify-content: center;
+    display: flex;
+    
+}
+img{
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+/* Hide the main content by default */
+#main-content {
+    display: none;
+}
+
+/* Show the message for non-desktop users */
+#non-desktop-message {
+    display: none;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+body.non-desktop #main-content {
+    display: none;
+}
+
+body.non-desktop #non-desktop-message {
+    display: block;
+}
+a > img{
+    border: none;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: rgba(44, 2, 99, 0.292);
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    transition: ease-in 0.4s;
+}
